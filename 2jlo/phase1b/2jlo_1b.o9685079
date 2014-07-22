@@ -1,0 +1,28 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+[c0836:12103] [[17416,0],4]-[[17416,1],32] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0716:05674] [[17416,0],10]-[[17416,1],84] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0716:05674] [[17416,0],10]-[[17416,1],80] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0667:22410] [[17416,0],15]-[[17416,1],120] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0835:16930] [[17416,0],5]-[[17416,1],40] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c1216:06333] [[17416,0],2]-[[17416,1],16] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c1216:06333] [[17416,0],2]-[[17416,1],20] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0833:18814] [[17416,0],7]-[[17416,1],56] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0833:18814] [[17416,0],7]-[[17416,1],60] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0834:15025] [[17416,0],6]-[[17416,1],48] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0718:32269] [[17416,0],9]-[[17416,1],72] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0704:32288] [[17416,0],12]-[[17416,1],100] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0704:32288] [[17416,0],12]-[[17416,1],96] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0668:21513] [[17416,0],14]-[[17416,1],112] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+
+----------------------------------------------------------------
+Jobs exit status code is 1
+Job 2jlo_1b/9685079.cvrsvc09-ib completed Sat Jul 19 09:03:56 PDT 2014
+Submitted by jmedina/jmedina using m1710
+Job Limits: neednodes=16:ppn=8,nodes=16:ppn=8,walltime=48:00:00
+Job Resources used: cput=119:59:54,mem=18616768kb,vmem=39484844kb,walltime=00:56:22
+Nodes used: c0667-ib c0668-ib c0703-ib c0704-ib c0713-ib c0716-ib c0718-ib c0719-ib c0833-ib c0834-ib c0835-ib c0836-ib c1126-ib c1216-ib c1377-ib c1405-ib 
+
+Killing any leftover processes...
+
+Job completed.

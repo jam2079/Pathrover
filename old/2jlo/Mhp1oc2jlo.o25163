@@ -1,0 +1,12 @@
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Error opening XSC restart file ./dat_phase2b2.restart.xsc: Disk quota exceeded
+
+Fatal error on PE 0> FATAL ERROR: Error opening XSC restart file ./dat_phase2b2.restart.xsc: Disk quota exceeded
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+

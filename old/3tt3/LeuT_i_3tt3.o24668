@@ -1,0 +1,88 @@
+------------- Processor 4 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+Fatal error on PE 4> FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Error on closing binary file ./dat_equil_phase2a1.np.restart.coor: Disk quota exceeded
+
+Fatal error on PE 0> FATAL ERROR: Error on closing binary file ./dat_equil_phase2a1.np.restart.coor: Disk quota exceeded
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Cannot open file '/home/jam2079/3tt3/phase2a/dat_equil_phase2a1.np.coor' for input in PDB::PDB.: No such file or directory
+
+Fatal error on PE 0> FATAL ERROR: Cannot open file '/home/jam2079/3tt3/phase2a/dat_equil_phase2a1.np.coor' for input in PDB::PDB.: No such file or directory
+
+------------- Processor 6 Exiting: Called CmiAbort ------------
+Reason: isomalloc> failed to find consolidated isomalloc region!
+Fatal error on PE 6> isomalloc> failed to find consolidated isomalloc region!
+------------- Processor 6 Exiting: Called CmiAbort ------------
+Reason: isomalloc> failed to find consolidated isomalloc region!
+Fatal error on PE 6> isomalloc> failed to find consolidated isomalloc region!
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 4 Exiting: Called CmiAbort ------------
+Reason: isomalloc> failed to find consolidated isomalloc region!
+------------- Processor 12 Exiting: Called CmiAbort ------------
+Reason: isomalloc> failed to find consolidated isomalloc region!
+Fatal error on PE 12> isomalloc> failed to find consolidated isomalloc region!
+error: executing task of job 24668 failed: failed sending task to execd@node029.pug.pbtech: can't find connection
+Charmrun> error 23 attaching to node:
+Timeout waiting for node-program to connect
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+error: executing task of job 24668 failed: failed sending task to execd@node029.pug.pbtech: got send error
+Charmrun> error 23 attaching to node:
+Timeout waiting for node-program to connect
+error: executing task of job 24668 failed: failed sending task to execd@node029.pug.pbtech: got send error
+Charmrun> error 23 attaching to node:
+Timeout waiting for node-program to connect
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+

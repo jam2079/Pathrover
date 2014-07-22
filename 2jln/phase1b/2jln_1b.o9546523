@@ -1,0 +1,28 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+[c0822:08695] [[64740,0],4]-[[64740,1],36] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0410:15990] [[64740,0],6]-[[64740,1],52] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0406:17512] [[64740,0],7]-[[64740,1],60] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0918:23695] [[64740,0],13]-[[64740,1],104] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0931:24223] [[64740,0],9]-[[64740,1],72] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0829:32046] [[64740,0],3]-[[64740,1],28] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0925:07140] [[64740,0],10]-[[64740,1],84] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0912:23353] [[64740,0],14]-[[64740,1],112] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0837:24566] [[64740,0],1]-[[64740,1],8] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0837:24566] [[64740,0],1]-[[64740,1],12] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0923:31675] [[64740,0],12]-[[64740,1],96] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0829:32046] [[64740,0],3]-[[64740,1],24] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0925:07140] [[64740,0],10]-[[64740,1],80] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0911:01252] [[64740,0],15]-[[64740,1],120] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+
+----------------------------------------------------------------
+Jobs exit status code is 1
+Job 2jln_1b/9546523.cvrsvc09-ib completed Sun Jun 29 20:01:49 PDT 2014
+Submitted by jmedina/jmedina using m1710
+Job Limits: neednodes=16:ppn=8,nodes=16:ppn=8,walltime=48:00:00
+Job Resources used: cput=142:22:17,mem=18612524kb,vmem=39833796kb,walltime=01:06:56
+Nodes used: c0406-ib c0410-ib c0411-ib c0822-ib c0829-ib c0835-ib c0837-ib c0860-ib c0911-ib c0912-ib c0918-ib c0923-ib c0924-ib c0925-ib c0931-ib c0935-ib 
+
+Killing any leftover processes...
+
+Job completed.

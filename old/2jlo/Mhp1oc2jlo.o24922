@@ -1,0 +1,111 @@
+------------- Processor 10 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 6 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 8 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+Fatal error on PE 10> FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+error: commlib error: got send error (closing "node065.pug.pbtech/execd/1")
+error: executing task of job 24922 failed: failed sending task to execd@node065.pug.pbtech: can't find connection
+Charmrun> error 23 attaching to node:
+Timeout waiting for node-program to connect
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+error: commlib error: got select error (Connection reset by peer)
+error: executing task of job 24922 failed: failed sending task to execd@node065.pug.pbtech: can't find connection
+Charmrun> error 23 attaching to node:
+Timeout waiting for node-program to connect
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Unable to open extended system file.
+
+
+Fatal error on PE 0> FATAL ERROR: Unable to open extended system file.
+
+

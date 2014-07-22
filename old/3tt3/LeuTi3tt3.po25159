@@ -1,0 +1,49 @@
+#=== PE start.sh script - starting ===
+debug: /pug001/sge_common/local/start.sh -catch_rsh -tmpdir -unique
+=====Begin orginial PE_HOSTFILE provided by SGE: /opt/sge/default/spool/node061/active_jobs/25159.1/pe_hostfile=====
+node061.pug.pbtech 12 standard.q@node061.pug.pbtech UNDEFINED
+node056.pug.pbtech 12 standard.q@node056.pug.pbtech UNDEFINED
+=======End orginial PE_HOSTFILE provided by SGE: /opt/sge/default/spool/node061/active_jobs/25159.1/pe_hostfile=====
+/pug001/sge_common/local/hostfile_charmrun.rb:58: warning: Insecure world writable dir /tmp, mode 041777
+====Entering /pug001/sge_common/local/hostfile_charmrun.rb====
+PE_HOSTFILE = /opt/sge/default/spool/node061/active_jobs/25159.1/pe_hostfile
+TMPDIR = /tmp/25159.1.standard.q
+Determining if Melanox Infiniband should be used
+Melanox Infiniband will be used for this run of 24 slots
+====Begin new charmrun machine file: /tmp/25159.1.standard.q/machines====
+group main
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+host node061.pug.mib.pbtech
+host node056.pug.mib.pbtech
+======End new charmrun machine file:/tmp/25159.1.standard.q/machines====
+====Entering /pug001/sge_common/local/hostfile_charmrun.rb====
+Catching rsh/ssh
+Creating /tmp/25159.1.standard.q on node node056
+#=== PE start.sh script - ending ===
+
+
+#=== PE stop.sh script - starting ===
+debug: /pug001/sge_common/local/stop.sh -tmpdir
+Deleting /tmp/25159.1.standard.q on node node056
+#=== PE stop.sh script - ending ===

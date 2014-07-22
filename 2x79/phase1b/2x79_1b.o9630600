@@ -1,0 +1,27 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+[c0972:24124] [[47147,0],5]-[[47147,1],40] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0970:10703] [[47147,0],7]-[[47147,1],60] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0979:08040] [[47147,0],2]-[[47147,1],16] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0964:24751] [[47147,0],11]-[[47147,1],92] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0970:10703] [[47147,0],7]-[[47147,1],56] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0967:19272] [[47147,0],9]-[[47147,1],72] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0959:22832] [[47147,0],15]-[[47147,1],120] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0962:05163] [[47147,0],13]-[[47147,1],104] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0971:06076] [[47147,0],6]-[[47147,1],48] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0973:04338] [[47147,0],4]-[[47147,1],32] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0960:23273] [[47147,0],14]-[[47147,1],112] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0965:17091] [[47147,0],10]-[[47147,1],80] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0974:15785] [[47147,0],3]-[[47147,1],24] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+
+----------------------------------------------------------------
+Jobs exit status code is 1
+Job 2x79_1b/9630600.cvrsvc09-ib completed Sat Jul 12 12:11:30 PDT 2014
+Submitted by jmedina/jmedina using m1710
+Job Limits: neednodes=16:ppn=8,nodes=16:ppn=8,walltime=48:00:00
+Job Resources used: cput=165:11:47,mem=18514620kb,vmem=40178280kb,walltime=01:17:56
+Nodes used: c0959-ib c0960-ib c0962-ib c0963-ib c0964-ib c0965-ib c0967-ib c0969-ib c0970-ib c0971-ib c0972-ib c0973-ib c0974-ib c0979-ib c1001-ib c1004-ib 
+
+Killing any leftover processes...
+
+Job completed.

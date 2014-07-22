@@ -1,0 +1,14 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+
+----------------------------------------------------------------
+Jobs exit status code is 0
+Job 3tt1_2a3.np/9558883.cvrsvc09-ib completed Tue Jul  1 06:41:03 PDT 2014
+Submitted by jmedina/jmedina using m1710
+Job Limits: neednodes=16:ppn=8,nodes=16:ppn=8,walltime=48:00:00
+Job Resources used: cput=298:17:25,mem=22981328kb,vmem=44574328kb,walltime=02:19:58
+Nodes used: c1140-ib c1143-ib c1144-ib c1146-ib c1212-ib c1219-ib c1220-ib c1226-ib c1232-ib c1239-ib c1249-ib c1256-ib c1325-ib c1327-ib c1328-ib c1330-ib 
+
+Killing any leftover processes...
+
+Job completed.

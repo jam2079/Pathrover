@@ -1,0 +1,51 @@
+rm(list=ls())
+save <- 1
+args <- commandArgs(TRUE)
+ncovmat <- args[1]
+prot <- args[2]
+boot <- 1
+
+#ncovmat <- 5
+#prot <- "LEU_VALSC"
+
+require(fields)
+require(gplots)
+
+datfile <-paste("data/",prot,"_",ncovmat,"_",boot,"_pairR_ALL.dat",sep="")
+pngfile <-paste("plots/",prot,"_",ncovmat,"_",boot,"_pairR_ALL.png",sep="")
+
+#if (!(file.exists(datfile))) {q(save="no")}
+print(prot)
+d <- read.table(datfile)
+
+TM <- c("TM1a","TM2","TM3","TM4","TM5","TM6a","TM7","TM8","TM9","TM10","TM11","TM12","TM1b","TM6b")
+TMx <- c("1a","2","3","4","5","6a","7","8","9","10","11","12","1b","6b")
+take <- c(1,13,6,14,2,7,3,4,8,9,5,10,11,12)
+div <- dim(d)[1]
+    
+all <- as.matrix(d[1:div,1:div])
+a <- as.matrix(all[take,take])
+a[a==1]=NA
+    
+nrows <- dim(a)[1]
+pos <- seq(0,1,1/(nrows-1))
+
+if (save==1) {png(pngfile,width=1100,height=825,res=160)}
+par(mar=c(3,4,3,5.5))
+image(a,axes=FALSE,col=tim.colors(64),zlim=c(0,1),main=paste(prot,"pairwise interactions with",ncovmat,"matrices"))
+mtext(text=TM[take], side=2, line=0.3, at=pos, las=1, cex=1)
+mtext(text=TMx[take], side=1, line=0.3, at=pos, las=1, cex=1)
+image.plot(a,col=tim.colors(64),legend.only=TRUE,zlim=c(0,1))
+abline(v=(-pos[2])/2)
+abline(v=(pos[6]+pos[7])/2)
+abline(v=(pos[10]+pos[11])/2)
+abline(v=(pos[12]+pos[13])/2)
+abline(v=(pos[14]+(pos[2]/2)))
+abline(h=(-pos[2])/2)
+abline(h=(pos[6]+pos[7])/2)
+abline(h=(pos[10]+pos[11])/2)
+abline(h=(pos[12]+pos[13])/2)
+abline(h=(pos[14]+(pos[2]/2)))
+if (save==1) {dev.off()}
+print(prot)
+

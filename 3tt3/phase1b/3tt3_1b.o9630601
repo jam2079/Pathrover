@@ -1,0 +1,20 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+[c0918:18604] [[32792,0],12]-[[32792,1],96] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0918:18604] [[32792,0],12]-[[32792,1],100] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0931:23982] [[32792,0],8]-[[32792,1],68] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0917:00816] [[32792,0],13]-[[32792,1],111] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0950:13078] [[32792,0],4]-[[32792,1],34] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c0935:30572] [[32792,0],7]-[[32792,1],60] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+
+----------------------------------------------------------------
+Jobs exit status code is 1
+Job 3tt3_1b/9630601.cvrsvc09-ib completed Sat Jul 12 14:17:39 PDT 2014
+Submitted by jmedina/jmedina using m1710
+Job Limits: neednodes=16:ppn=8,nodes=16:ppn=8,walltime=48:00:00
+Job Resources used: cput=434:07:19,mem=22664100kb,vmem=44036596kb,walltime=03:24:04
+Nodes used: c0912-ib c0913-ib c0917-ib c0918-ib c0921-ib c0924-ib c0925-ib c0931-ib c0935-ib c0936-ib c0937-ib c0950-ib c0951-ib c0955-ib c0957-ib c0958-ib 
+
+Killing any leftover processes...
+
+Job completed.

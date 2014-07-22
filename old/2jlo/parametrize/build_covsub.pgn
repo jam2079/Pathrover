@@ -1,0 +1,20 @@
+topology top_all27_prot_na.inp
+
+alias residue HOH TIP3
+alias atom HOH O OH2
+alias atom ILE CD1 CD
+pdbalias residue HIS HSE
+
+segment HISH {
+	first NTER
+	last CTER
+	pdb 2jlo_sel.pdb
+}
+
+coordpdb 2jlo_sel.pdb HISH
+
+guesscoord
+
+writepsf 2jlo_covsub.psf
+writepdb 2jlo_covsub.pdb
+

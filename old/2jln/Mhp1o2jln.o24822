@@ -1,0 +1,69 @@
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 18 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 19 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 10 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 8 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 9 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 16 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 2 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 20 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 21 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 3 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 17 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+------------- Processor 11 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+
+Fatal error on PE 18> FATAL ERROR: Periodic cell has become too small for original patch grid!
+Possible solutions are to restart from a recent checkpoint,
+increase margin, or disable useFlexibleCell for liquid simulation.
+

@@ -1,0 +1,7 @@
+------------- Processor 0 Exiting: Called CmiAbort ------------
+Reason: FATAL ERROR: UNABLE TO OPEN CHARMM PARAMETER FILE /home/jam2079/Pathorover/3tt3/common/parameters_all.prm
+
+
+Fatal error on PE 0> FATAL ERROR: UNABLE TO OPEN CHARMM PARAMETER FILE /home/jam2079/Pathorover/3tt3/common/parameters_all.prm
+
+

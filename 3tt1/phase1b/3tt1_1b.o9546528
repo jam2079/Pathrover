@@ -1,0 +1,16 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+[c0577:17550] [[27203,0],3]-[[27203,1],27] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[c1079:22054] [[27203,0],9]-[[27203,1],75] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+
+----------------------------------------------------------------
+Jobs exit status code is 1
+Job 3tt1_1b/9546528.cvrsvc09-ib completed Sun Jun 29 23:30:18 PDT 2014
+Submitted by jmedina/jmedina using m1710
+Job Limits: neednodes=16:ppn=8,nodes=16:ppn=8,walltime=48:00:00
+Job Resources used: cput=446:04:28,mem=23530580kb,vmem=44773828kb,walltime=03:29:18
+Nodes used: c0437-ib c0568-ib c0570-ib c0571-ib c0577-ib c0580-ib c1056-ib c1057-ib c1058-ib c1059-ib c1060-ib c1061-ib c1079-ib c1080-ib c1461-ib c1476-ib 
+
+Killing any leftover processes...
+
+Job completed.
