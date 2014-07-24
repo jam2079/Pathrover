@@ -55,7 +55,7 @@ cutoff              12.
 switching           on
 switchdist          10.
 pairlistdist        13.5
-margin              1.5
+margin              2.5
 seed                815234958
 # Integrator Parameters
 timestep            1.0  ;# 1fs/step
