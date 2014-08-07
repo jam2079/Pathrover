@@ -1,0 +1,3 @@
+The following commands were executed:
+export MATLAB_HOME=/softlib/exe/x86_64/pkg/matlab/2011a/dist
+export PATH=$MATLAB_HOME/bin${PATH+:$PATH}

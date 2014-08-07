@@ -260,7 +260,7 @@ mol addfile /pbtech_mounts/hwlab_store/jam2079/Pathrover/2jlo/prod.dcd type dcd 
 mol delrep 0 top
 mol representation Licorice 0.300000 10.000000 10.000000
 mol color ColorID 4
-mol selection {protein and noh and resid 22 254 27 286 20 23 351 354 355}
+mol selection {protein and noh and resid 38 41 309 312 313}
 mol material Opaque
 mol addrep top
 mol selupdate 0 top 0
@@ -335,7 +335,7 @@ mol new /pbtech_mounts/hwlab_store/jam2079/Pathrover/2jlo/setup/2jlo.pdb type pd
 mol delrep 0 top
 mol representation Licorice 0.300000 10.000000 10.000000
 mol color ColorID 0
-mol selection {protein and noh and resid 22 254 27 286 20 23 351 354 355}
+mol selection {protein and noh and resid 38 41 309 312 313}
 mol material Opaque
 mol addrep top
 mol selupdate 0 top 0

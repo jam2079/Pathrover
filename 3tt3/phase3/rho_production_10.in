@@ -6,10 +6,10 @@
 # 5ht in lipid bilayer
 # NPT constrain the protein backbone and heavy atom of 5HT while free all other atoms
 
-set inputdir /global/u1/j/jmedina/Pathrover/2x79/phase2b
-set restdir /global/u1/j/jmedina/Pathrover/2x79/phase3  
+set inputdir ../phase2b
+set restdir ../phase3  
 set outputdir .
-set common /global/u1/j/jmedina/Pathrover/2x79/common
+set common ../common
 
 
 #############################################################
@@ -18,7 +18,7 @@ set common /global/u1/j/jmedina/Pathrover/2x79/common
 
 set temperature    310
 set inputname      $inputdir/dat_phase2b3
-set restname      $restdir/dat_phase3_9
+set restname      $restdir/dat_phase3_09
 set outputname     dat_phase3_10
 
 structure          $common/ionized.psf

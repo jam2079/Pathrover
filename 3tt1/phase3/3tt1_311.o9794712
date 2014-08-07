@@ -1,0 +1,16 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+=>> PBS: job killed: walltime 172845 exceeded limit 172800
+Terminated
+
+----------------------------------------------------------------
+Jobs exit status code is -11
+Job 3tt1_311/9794712.cvrsvc09-ib completed Sun Aug  3 19:10:12 PDT 2014
+Submitted by jmedina/jmedina using m1710
+Job Limits: neednodes=16:ppn=8,nodes=16:ppn=8,walltime=48:00:00
+Job Resources used: cput=6143:20:09,mem=22921488kb,vmem=44454192kb,walltime=48:00:45
+Nodes used: c0720-ib c0724-ib c0725-ib c0726-ib c0763-ib c0805-ib c0808-ib c0809-ib c0819-ib c0824-ib c1180-ib c1201-ib c1250-ib c1256-ib c1259-ib c1263-ib 
+
+Killing any leftover processes...
+
+Job completed.
